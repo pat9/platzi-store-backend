@@ -1,0 +1,31 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+
+node_js:
+  - '12'
+
+git:
+  depth: 3
+
+scripts:
+  - yarn test
+
+notifications:
+  email:
+    recipients:
+      - danielpat6@gmail.com
+      - daniel_pat_98@hotmail.com
+    on_success: always
+    on_failure: always
+
+deploy:
+  provide: heroku
+  skip-clean: true
+  keep-history: true
+  api_key: 0ed35469-03af-455b-82e0-5ac5c4e0a711
+  app: platzi-store-b-pat
+  on:
+    repo: pat9/platzi-store-backend

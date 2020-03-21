@@ -15,7 +15,7 @@ scripts:
 
 notifications:
   email:
-    recipients:
+    reci pients:
       - danielpat6@gmail.com
       - daniel_pat_98@hotmail.com
     on_success: always
@@ -25,7 +25,8 @@ deploy:
   provide: heroku
   skip-clean: true
   keep-history: true
-  api_key: 0ed35469-03af-455b-82e0-5ac5c4e0a711
+  api_key:
+    secure: "EE+wLMqgAMDPOlf4p7yJvxIAH5JwvNwtyZsmaRnXLXB9j+thYcN3cWkKhU2uPB9oZaxfPVVd8RdwmSTpH2tRPFCvj4DRFOymvVj6Kr+XORoTvst39blnFeU8gRoNVVdQjbsTje8QI4ZWWBiFHc1ZMevq4LxwxVv0DH0zWCyDGQFtJGO7E4PSF8zPMIU5vnxqjn9wwhPRmWz/igXEkzbY8uSMMNWaOjVyaeto2sHUipxW7nDT8dilNvAhx7LI+PDKglIK9BzIWwIekahT+Q+1ngWebsnQE2uiV3TNcTxNHBc+PBZmcZb8xyr+MYOwGIIpeBpb6XpyN33mQ2VSWIHHaQEMyY1b4zgfQfaST6V2QzZ8heJhvuHE9atA8cnVYkeyFy6ewpAiDHWyssxlHENWcKocPD1Xwu7ZOR/SDKlXVrQF6a3gvFcgfyEjNWBIyFjigmMgBD3Y0VznpTmKjDyQ6g8oZ0WTGExhLU4+k7ptD0g1zS8rStO1yByWuu58SsUCxd6Uo3hAhckYAr3+zH6d3ciCU7H1CjvkmkL+mghbGLOEgqc9LcLDB73UhP0lvkRvcveR8kvK+P0YpbleS3ZayR1BEgHo638rBNLoFums+0fBkIuBgj8z2gvx8tdkFDhe8PhpS63NSgPYO+fXpTPh5G7fi58dh0gJaSGImL1eeIU="
   app: platzi-store-b-pat
   on:
     repo: pat9/platzi-store-backend
